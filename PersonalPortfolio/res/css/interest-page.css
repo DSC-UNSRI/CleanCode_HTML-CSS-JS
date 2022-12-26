@@ -1,0 +1,65 @@
+.line1 {
+  left: 4rem;
+}
+
+.line2 {
+  left: 9.4rem;
+}
+
+section {
+  position: absolute;
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+section .left {
+  width: 23.75rem;
+}
+
+h1 {
+  font-size: 3.13rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.25rem;
+  color: #808080;
+}
+
+section .right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+section .right .coding,
+section .right .design {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+img {
+  display: block;
+}
+
+.design img {
+  height: 13.87rem;
+}
+
+.design span,
+.coding span {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.coding img {
+  height: 13.87rem;
+}

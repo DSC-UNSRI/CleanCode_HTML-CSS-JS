@@ -1,0 +1,51 @@
+.line2 {
+  right: 4rem;
+}
+
+.line1 {
+  right: 6.87rem;
+}
+
+section {
+  position: absolute;
+  gap: 4rem;
+  left: 50%;
+  top: 50%;
+  transform: translate(-55%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left img {
+  width: 32.5rem;
+  height: 18.4rem;
+  border-radius: 0.7rem;
+  box-shadow: 0.25rem 0.25rem 3.2rem 1rem rgba(0, 0, 0, 0.25);
+  transition: ease-in-out 1s;
+}
+
+.left img:hover {
+  width: 37.5rem;
+  height: 21.2rem;
+}
+
+.right {
+  width: 25rem;
+}
+
+.right p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #808080;
+}
+
+.right h2 {
+  font-size: 2.62rem;
+  margin-bottom: 0.5rem;
+}
+
+.right span {
+  font-size: 1.5rem;
+  color: #808080;
+}
