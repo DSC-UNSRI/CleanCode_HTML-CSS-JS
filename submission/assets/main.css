@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,700&family=Secular+One&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    
+}
+
+.top-wrapper {
+    width: 100%;
+    height: 36rem;
+    display: flex;
+}
+
+.left {
+    display: block;
+    width: 50%;
+    padding: 2% 0% 2% 10%;
+    margin-right: 0%;
+}
+
+header {
+    padding-left: 5%;
+    width: 100%;
+    height: 5%;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0%;
+}
+
+nav ul li {
+    margin-left: 0%;
+    margin-right: 10%;
+    float: left;
+
+}
+nav button {
+    background-color: white;
+    border: none;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: #333333;
+}
+
+nav a:hover {
+    color: royalblue;
+    text-decoration: underline;
+}
+
+.dropdown {
+    position: relative;
+    overflow: hidden;
+}
+
+.drop-cnt {
+    display: none;
+    background-color: rgba(142, 201, 231, 0.258);
+    border-radius: 0.5rem;
+    margin-top: 5%;
+}
+
+.drop-cnt a {
+    text-decoration: none;
+    display: block;
+    padding: 12px 16px;
+    font-size: 18px;
+    
+}
+
+.dropdown:hover .drop-cnt {
+    display: block;
+}
+
+.drop-cnt a:hover {
+    color: black;
+}
+
+
+.content {
+    padding-top: 15%;
+    padding-right: 0%;
+    margin-right: 0%;
+    width: 70%;
+    text-align: right;
+    font-family: 'Alegreya', serif;
+}
+
+
+.content h1 {
+    font-size: 4.25rem;
+    margin-bottom: 3%;
+}
+
+
+.content p {
+    font-size: 1.5rem;
+    color: #545454;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.right {
+    width: 33%;
+}
+
+.image-container img {
+    margin-top: 13%;
+    width: 67%;
+    height: 78%;
+}
+
+article {
+    margin: 5%;
+}
+
+article a {
+    text-decoration: none;
+    color: #333333;
+}
+
+article a h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 0px;
+}
+
+article {
+    background-color: rgba(245, 245, 220, 0.445);
+    margin-left:10%;
+    margin-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    position: relative;
+    border-radius: 2.5rem;
+}
+
+article:hover {
+    background-color: rgba(142, 201, 231, 0.258);
+}
+
+.article-title {
+    margin-left: 15%;
+    width: 25%;
+}
+
+article img {
+    width: 70%;
+    height: 30%;
+    margin: 5% auto;
+    display: block;
+}
+
+article p {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 1.5rem;
+    font-family: 'Alegreya', serif;
+    text-align: center;
+}
+

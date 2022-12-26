@@ -1,0 +1,42 @@
+body {
+    padding-top: 1.5%;
+
+}
+
+header {
+    padding-left: 12%;
+}
+
+header ul li {
+    margin-right: 5%;
+}
+
+
+.content-about {
+    display: flex;
+    padding-top: 5%;
+    padding-left: 12%;
+    padding-right: 5%;
+    height: 75%;
+    font-family: 'Alegreya', serif;
+    font-size: 1.25rem;
+   
+}
+
+.desc {
+    margin-left: 1%;
+    margin-right: 5%;
+   
+}
+
+.desc h1 {
+    margin-top: 0%;
+    font-family: 'Lato', sans-serif;
+}
+
+.photo-about img {
+    height: 70%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 2%;
+}

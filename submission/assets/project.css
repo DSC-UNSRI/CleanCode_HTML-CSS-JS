@@ -1,0 +1,15 @@
+.project {
+    margin-top: 5%;
+}
+
+.article-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    width: 50%;
+}
+
+article:hover {
+   background-color: rgba(245, 245, 220, 0.445);
+}
+

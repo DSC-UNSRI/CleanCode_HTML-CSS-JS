@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="assets/main.css">
+        <link rel="stylesheet" href="assets/about_style.css">
+        <link rel="stylesheet" href="assets/contact_style.css">
+        <script src="assets/submit-alert.js" defer></script>
+        <title>Portofolio: Contact</title>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><button><a href ="_home.html">Home</a></button></li>
+                    <li><button><a href ="about.html">About</a></button></li>
+                    <li><button><a href ="contact.html">Contact</a></button></li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn"><a>Work</a></button>
+                            <div class="drop-cnt">
+                              <a href="project-1.html">healthier.</a>
+                              <a href="project-2.html">Kuliner-mania</a>
+                            </div>
+                          </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+       <div class="contact-me">
+            <img src="assets/image/moon.png" alt="gambar bulan">
+
+            <form action="#">
+                <label for="name">Name</label> <br>
+                <input type="text" id="name" name="name"> <br><br>
+                <label for="email">Email</label> <br>
+                <input type="text" id="email" name="email"> <br><br>
+                <label for="name">Message</label> <br>
+                <textarea></textarea><br>
+                <input type="submit" value="Send Message" onclick="showAlert()">
+            </form>
+       </div>
+
+    </body>
+</html>
